@@ -5,19 +5,19 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const typescript = "src/assets/typescript.svg";
-const javascript = "src/assets/javascript.svg";
-const reactjs = "src/assets/reactjs.svg";
-const flutter = "src/assets/flutter.svg";
-const tailwindcss = "src/assets/tailwindcss.svg";
-const firebase = "src/assets/firebase.svg";
-const postgresql = "src/assets/postgres.svg";
-const prisma = "src/assets/prisma.svg";
-// const mongodb = "src/assets/mongodb.svg";
+const typescript = "/typescript.svg";
+const javascript = "/javascript.svg";
+const reactjs = "/reactjs.svg";
+const flutter = "/flutter.svg";
+const tailwindcss = "/tailwindcss.svg";
+const firebase = "/firebase.svg";
+const postgresql = "/postgres.svg";
+const prisma = "/prisma.svg";
+// const mongodb = "/mongodb.svg";
 
-const android = "src/assets/android.svg";
-const express = "src/assets/express.svg";
-const dart = "src/assets/dart.svg";
+const android = "/android.svg";
+const express = "/express.svg";
+const dart = "/dart.svg";
 
 export const prj1 = {
   iconLink: [typescript, javascript, reactjs, tailwindcss],

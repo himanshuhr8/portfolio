@@ -16,28 +16,28 @@ const Projects: React.FC = (): JSX.Element => {
         <Card
           title="Portfolio Website"
           description="ertrst"
-          imgLink="src\assets\prj1.jpg"
+          imgLink="\prj1.jpg"
           githubLink="https://www.github.com/himanshuhr8"
           icons={prj1}
         />
         <Card
           title="Todo App"
           description="ertrst"
-          imgLink="src\assets\prj1.jpg"
+          imgLink="\prj1.jpg"
           githubLink="https://github.com/himanshuhr8/todoApp"
           icons={prj2}
         />
         <Card
           title="GradePlus App"
           description="ertrst"
-          imgLink="src\assets\prj1.jpg"
+          imgLink="\prj1.jpg"
           githubLink="https://github.com/himanshuhr8/GradePlus"
           icons={prj3}
         />
         <Card
           title="ParkEase App"
           description="ertrst"
-          imgLink="src\assets\prj1.jpg"
+          imgLink="\prj1.jpg"
           githubLink="https://www.github.com/himanshuhr8"
           icons={prj4}
         />
