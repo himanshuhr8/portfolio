@@ -13,7 +13,7 @@ const tailwindcss = "src/assets/tailwindcss.svg";
 const firebase = "src/assets/firebase.svg";
 const postgresql = "src/assets/postgres.svg";
 const prisma = "src/assets/prisma.svg";
-const mongodb = "src/assets/mongodb.svg";
+// const mongodb = "src/assets/mongodb.svg";
 
 const android = "src/assets/android.svg";
 const express = "src/assets/express.svg";
