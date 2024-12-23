@@ -1,6 +1,5 @@
 import React from "react";
 
-import "@/footer.css";
 import Contact from "@/components/Contact";
 const Footer: React.FC = () => {
   const date = new Date();
