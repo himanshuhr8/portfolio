@@ -15,30 +15,34 @@ const Projects: React.FC = (): JSX.Element => {
       >
         <Card
           title="Portfolio Website"
-          description="ertrst"
+          description="A sleek and responsive portfolio showcasing projects, skills, and contact information."
           imgLink="\prj1.jpg"
-          githubLink="https://www.github.com/himanshuhr8"
+          liveLink="https://hima31.vercel.app/"
+          githubLink="https://www.github.com/himanshuhr8/portfolio"
           icons={prj1}
         />
+
         <Card
           title="Todo App"
-          description="ertrst"
-          imgLink="\prj1.jpg"
+          description="A feature-rich todo application with authentication, profile management, and seamless task handling."
+          imgLink="\prj2.jpg"
           githubLink="https://github.com/himanshuhr8/todoApp"
           icons={prj2}
         />
+
         <Card
           title="GradePlus App"
-          description="ertrst"
-          imgLink="\prj1.jpg"
+          description="A dedicated app for IIITA students to access lecture notes, past papers and study materials."
+          imgLink="\prj3.png"
           githubLink="https://github.com/himanshuhr8/GradePlus"
           icons={prj3}
         />
+
         <Card
           title="ParkEase App"
-          description="ertrst"
-          imgLink="\prj1.jpg"
-          githubLink="https://www.github.com/himanshuhr8"
+          description="A parking management app with real-time spot details, Google Maps integration, and Firebase-powered features."
+          imgLink="\prj4.jpg"
+          githubLink="https://github.com/himanshuhr8/ParkEasePlus"
           icons={prj4}
         />
       </div>

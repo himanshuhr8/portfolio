@@ -45,6 +45,7 @@ const AboutCard = (): JSX.Element => {
             <div className="flex items-start space-x-3">
               <ImPointRight className="text-purple-500 mt-1" />
               <span>
+                Proficient in{" "}
                 <span className="font-semibold">
                   React, JavaScript, TypeScript
                 </span>
@@ -55,10 +56,8 @@ const AboutCard = (): JSX.Element => {
               <ImPointRight className="text-purple-500 mt-1" />
               <span>
                 Experience with{" "}
-                <span className="font-semibold">
-                  PostgreSQL, MongoDB, Firebase
-                </span>{" "}
-                and <span className="font-semibold">Prisma ORM</span>.
+                <span className="font-semibold">PostgreSQL, MongoDB</span> and{" "}
+                <span className="font-semibold">Prisma ORM</span>.
               </span>
             </div>
             <div className="flex items-start space-x-3">
