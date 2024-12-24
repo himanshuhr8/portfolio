@@ -4,6 +4,7 @@ const slugs = [
   "typescript",
   "javascript",
   "dart",
+  "cplusplus",
   "java",
   "react",
   "flutter",
@@ -12,7 +13,7 @@ const slugs = [
   "css3",
   "nodedotjs",
   "express",
-  "nextdotjs",
+  // "nextdotjs",
   "prisma",
   "amazonaws",
   "tailwindcss",
@@ -22,10 +23,13 @@ const slugs = [
   "vercel",
   "postman",
   "linux",
+  "npm",
+  "mongodb",
+  "kotlin",
   // "testinglibrary",
-  "jest",
+  // "jest",
   // "cypress",
-  "docker",
+  // "docker",
   "git",
   // "jira",
   "github",
@@ -33,14 +37,14 @@ const slugs = [
   "visualstudiocode",
   "androidstudio",
   // "sonarqube",
-  "figma",
+  // "figma",
 ];
 const Home = (): JSX.Element => {
   return (
-    <section className="flex py-14 px-10 mt-2">
-      <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
+    <section className=" flex   mt-6">
+      <div className="mt-8  container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
         {/* First Column (Text in Three Rows) */}
-        <div className="lg:w-1/2 flex flex-col space-y-6 text-left mb-8 lg:mb-0 mt-20 sm:mt-24 md:mt-32">
+        <div className="  lg:w-1/2 flex flex-col space-y-6 text-left mb-8 lg:mb-0 mt-20 sm:mt-24 md:mt-32">
           <div>
             <h1 className="text-3xl md:text-5xl font-semibold text-white">
               Hi There!{" "}
@@ -56,9 +60,8 @@ const Home = (): JSX.Element => {
             <Type />
           </div>
         </div>
-
         {/* Second Column (Icon Cloud) */}
-        <div className="lg:w-1/2 flex items-center justify-center">
+        <div className=" mt-4 lg:w-1/2 flex flex-col items-center justify-center">
           <IconCloud iconSlugs={slugs} />
         </div>
       </div>

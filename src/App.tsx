@@ -25,7 +25,7 @@ const App: React.FC = () => {
         <ScrollProgress className="top-[0px]" />
         <Navbar />
         <div
-          className="  container flex flex-col justify-center items-center w-full h-full overflow-x-hidden"
+          className=" container flex flex-col justify-center items-center w-full h-full overflow-x-hidden"
           style={{
             minHeight: "100vh",
             minWidth: "100vw",
