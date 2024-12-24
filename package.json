@@ -28,6 +28,7 @@
     "react-image": "^4.1.0",
     "react-router-dom": "^7.1.0",
     "react-router-hash-link": "^2.4.3",
+    "simple-icons": "^14.0.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "typewriter-effect": "^2.21.0"
