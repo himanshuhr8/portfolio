@@ -1,7 +1,7 @@
 "use client";
 
-import { CardBody, CardContainer, CardItem } from "../ui/3d-card"; // Assuming these components are custom and will work
-import { Link } from "react-router-dom"; // If you're using React Router for navigation
+import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import { Link } from "react-router-dom";
 
 interface CardProps {
   title: string;
@@ -21,11 +21,15 @@ export function Card({
   icons,
 }: CardProps) {
   return (
-    <CardContainer className="inter-var max-w-full">
-      <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full sm:w-[30rem] h-auto rounded-xl p-4 sm:p-6 border">
+    <CardContainer className="max-w-full overflow-x-auto">
+      <CardBody
+        className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
+          dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full max-w-[90%] sm:max-w-[30rem] 
+          md:max-w-[22rem] lg:max-w-[30rem] h-auto rounded-xl p-4 sm:p-6 border"
+      >
         <CardItem
           translateZ="50"
-          className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white"
+          className="text-base sm:text-lg md:text-xl font-bold text-neutral-600 dark:text-white"
         >
           {title}
         </CardItem>
@@ -34,11 +38,10 @@ export function Card({
           <img
             src={imgLink}
             alt="thumbnail"
-            height="1000"
-            width="1000"
-            className="h-40 sm:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-32 sm:h-40 md:h-48 lg:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
           />
         </CardItem>
+
         <CardItem
           as="p"
           translateZ="60"
@@ -46,34 +49,30 @@ export function Card({
         >
           {description}
         </CardItem>
-        <CardItem className="flex flex-row gap-3 mt-4">
+
+        <CardItem className="flex flex-wrap gap-2 mt-4">
           {icons.iconLink.map((icon: string, index: number) => (
             <div
               key={index}
               className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-              style={{
-                transform: `translateX(-${5 * index + 2}px)`,
-              }}
             >
               <img
                 src={icon}
-                alt="icon5"
-                className="p-2"
-                width={100}
-                height={100}
+                alt={`icon-${index}`}
+                className="p-2 w-full h-full object-contain"
               />
             </div>
           ))}
         </CardItem>
 
-        <div className="flex justify-between items-center mt-12">
+        <div className="flex flex-col sm:flex-row justify-between items-center mt-8 gap-2">
           {liveLink && (
             <CardItem
               translateZ={20}
               as={Link}
               to={liveLink}
               target="__blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white text-center"
             >
               Live Link →
             </CardItem>
@@ -83,13 +82,14 @@ export function Card({
             as={Link}
             to={githubLink}
             target="__blank"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold text-center"
           >
-            Github
+            GitHub
           </CardItem>
         </div>
       </CardBody>
     </CardContainer>
   );
 }
+
 export default Card;

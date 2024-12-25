@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
   width: 100%;
   box-sizing: border-box;
 }
@@ -39,4 +39,18 @@ body {
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+}
+.heart {
+  display: inline-block;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
