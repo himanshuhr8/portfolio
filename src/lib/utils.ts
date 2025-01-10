@@ -14,15 +14,31 @@ const firebase = "/firebase.svg";
 const postgresql = "/postgres.svg";
 const prisma = "/prisma.svg";
 // const mongodb = "/mongodb.svg";
+const vercel = "/vercel.svg";
+const hono = "/hono.svg";
+const cloudflare = "/cloudflare.svg";
 
 const android = "/android.svg";
 const express = "/express.svg";
 const dart = "/dart.svg";
 
 export const prj1 = {
-  iconLink: [typescript, javascript, reactjs, tailwindcss],
+  iconLink: [typescript, javascript, reactjs, tailwindcss, vercel],
 };
 export const prj2 = {
+  iconLink: [
+    reactjs,
+    typescript,
+    javascript,
+    tailwindcss,
+    postgresql,
+    prisma,
+    hono,
+    cloudflare,
+    vercel,
+  ],
+};
+export const prj3 = {
   iconLink: [
     typescript,
     javascript,
@@ -33,5 +49,5 @@ export const prj2 = {
     prisma,
   ],
 };
-export const prj3 = { iconLink: [flutter, firebase, dart, android] };
 export const prj4 = { iconLink: [flutter, firebase, dart, android] };
+export const prj5 = { iconLink: [flutter, firebase, dart, android] };
