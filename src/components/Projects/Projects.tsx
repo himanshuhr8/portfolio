@@ -2,7 +2,7 @@ import React from "react";
 import Card from "@/components/Projects/Card";
 import Heading from "@/components/Heading";
 // Define project interface
-import { prj1, prj2, prj3, prj4, prj5 } from "@/lib/utils";
+import { prj1, prj2, prj3, prj4, prj5, prj11 } from "@/lib/utils";
 const Projects: React.FC = (): JSX.Element => {
   return (
     <div id="projects" className=" mt-7">
@@ -13,6 +13,15 @@ const Projects: React.FC = (): JSX.Element => {
         className="flex flex-wrap w-full justify-center gap-x-[10rem]
       relative"
       >
+        <Card
+          title="Music Room"
+          description="A collaborative music queue web app where users can join rooms, add YouTube songs, vote on tracks, and enjoy a shared listening experience."
+          imgLink="\prj11.jpg"
+          liveLink="https://vol1-hima31.vercel.app/"
+          githubLink="https://github.com/himanshuhr8/vol1"
+          icons={prj11}
+        />
+
         <Card
           title="Portfolio Website"
           description="A sleek and responsive portfolio showcasing projects, skills, and contact information."

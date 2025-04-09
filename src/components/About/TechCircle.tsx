@@ -40,7 +40,7 @@ export default function OrbitingCirclesDemo() {
         className="size-[50px] border-none bg-transparent"
         radius={190}
         duration={30}
-        delay={5}
+        delay={6}
         reverse
       >
         <Icons.typescript />
@@ -48,7 +48,7 @@ export default function OrbitingCirclesDemo() {
       <OrbitingCircles
         className="size-[50px] border-none bg-transparent"
         radius={190}
-        delay={10}
+        delay={12}
         duration={30}
         reverse
       >
@@ -58,16 +58,16 @@ export default function OrbitingCirclesDemo() {
         className="size-[50px] border-none bg-transparent"
         radius={190}
         duration={30}
-        delay={15}
+        delay={18}
         reverse
       >
-        <Icons.firebase />
+        <Icons.nextjs />
       </OrbitingCircles>
       <OrbitingCircles
         className="size-[50px] border-none bg-transparent"
         radius={190}
         duration={30}
-        delay={20}
+        delay={24}
         reverse
       >
         <Icons.postgresql />
@@ -76,19 +76,10 @@ export default function OrbitingCirclesDemo() {
         className="size-[50px] border-none bg-transparent"
         radius={190}
         duration={30}
-        delay={25}
-        reverse
-      >
-        <Icons.flutter />
-      </OrbitingCircles>
-      <OrbitingCircles
-        className="size-[50px] border-none bg-transparent"
-        radius={190}
-        duration={30}
         delay={30}
         reverse
       >
-        <Icons.mongodb />
+        <Icons.flutter />
       </OrbitingCircles>
     </div>
   );

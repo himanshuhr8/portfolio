@@ -16,6 +16,7 @@ const prisma = "/prisma.svg";
 // const mongodb = "/mongodb.svg";
 const vercel = "/vercel.svg";
 const hono = "/hono.svg";
+const nextjs = "/nextdotjs.svg";
 const cloudflare = "/cloudflare.svg";
 
 const android = "/android.svg";
@@ -24,6 +25,17 @@ const dart = "/dart.svg";
 
 export const prj1 = {
   iconLink: [typescript, javascript, reactjs, tailwindcss, vercel],
+};
+export const prj11 = {
+  iconLink: [
+    nextjs,
+    typescript,
+    javascript,
+    tailwindcss,
+    postgresql,
+    prisma,
+    vercel,
+  ],
 };
 export const prj2 = {
   iconLink: [
