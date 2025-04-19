@@ -18,13 +18,18 @@ const vercel = "/vercel.svg";
 const hono = "/hono.svg";
 const nextjs = "/nextdotjs.svg";
 const cloudflare = "/cloudflare.svg";
-
+const python = "/python.svg";
 const android = "/android.svg";
 const express = "/express.svg";
 const dart = "/dart.svg";
+const streamlit = "/streamlit.svg";
+const googlegemini = "/googlegemini.svg";
 
 export const prj1 = {
   iconLink: [typescript, javascript, reactjs, tailwindcss, vercel],
+};
+export const prj22 = {
+  iconLink: [python, googlegemini, streamlit],
 };
 export const prj11 = {
   iconLink: [

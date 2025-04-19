@@ -2,7 +2,7 @@ import React from "react";
 import Card from "@/components/Projects/Card";
 import Heading from "@/components/Heading";
 // Define project interface
-import { prj1, prj2, prj3, prj4, prj5, prj11 } from "@/lib/utils";
+import { prj1, prj2, prj3, prj4, prj5, prj11, prj22 } from "@/lib/utils";
 const Projects: React.FC = (): JSX.Element => {
   return (
     <div id="projects" className=" mt-7">
@@ -29,6 +29,14 @@ const Projects: React.FC = (): JSX.Element => {
           liveLink="https://hima31.vercel.app/"
           githubLink="https://www.github.com/himanshuhr8/portfolio"
           icons={prj1}
+        />
+        <Card
+          title="Agentic Medical AI"
+          description="A multi-agent reasoning system for simulating OSCE-style medical diagnosis, with interactive doctor-patient conversations and diagnostic insights."
+          imgLink="\agentic_ai.jpg"
+          liveLink="https://agenticmedicalai.streamlit.app/"
+          githubLink="https://github.com/himanshuhr8/AgenticMedicalAi"
+          icons={prj22}
         />
 
         <Card
