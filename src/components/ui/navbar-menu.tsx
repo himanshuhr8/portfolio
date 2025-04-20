@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { drive_link } from "@/lib/utils";
 
 export const MenuItem = ({ item, path }: { item: string; path: string }) => {
   const navigate = useNavigate();
@@ -10,11 +11,7 @@ export const MenuItem = ({ item, path }: { item: string; path: string }) => {
   const handleNavigation = () => {
     if (path === "/resume") {
       // Open the resume link in a new tab
-      window.open(
-        "https://drive.google.com/file/d/1ZYqZiCdrWmWQ1FROEoVFVshh_rJqxF5r/view?usp=sharing",
-        "_blank",
-        "noopener,noreferrer"
-      );
+      window.open(drive_link, "_blank", "noopener,noreferrer");
     } else if (path.includes("#")) {
       // Do nothing here as HashLink handles hash navigation automatically
     } else {

@@ -25,6 +25,8 @@ const dart = "/dart.svg";
 const streamlit = "/streamlit.svg";
 const googlegemini = "/googlegemini.svg";
 
+export const drive_link =
+  "https://drive.google.com/file/d/1DE3kOBYf2fuHW5sthCJD89Ld6bwV-Gfd/view?usp=sharing";
 export const prj1 = {
   iconLink: [typescript, javascript, reactjs, tailwindcss, vercel],
 };
