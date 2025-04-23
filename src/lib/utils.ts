@@ -24,27 +24,28 @@ const express = "/express.svg";
 const dart = "/dart.svg";
 const streamlit = "/streamlit.svg";
 const googlegemini = "/googlegemini.svg";
+const supabase = "/supabase.svg";
+const shadcn = "/shadcnui.svg";
 
 export const drive_link =
   "https://drive.google.com/file/d/1DE3kOBYf2fuHW5sthCJD89Ld6bwV-Gfd/view?usp=sharing";
-export const prj1 = {
+
+export const musicRoomIcons = {
+  iconLink: [nextjs, typescript, tailwindcss, postgresql, prisma, vercel],
+};
+
+export const noteGeniusIcons = {
+  iconLink: [nextjs, typescript, supabase, tailwindcss, shadcn, vercel],
+};
+export const portfolioIcons = {
   iconLink: [typescript, javascript, reactjs, tailwindcss, vercel],
 };
-export const prj22 = {
+
+export const agentMedicalIcons = {
   iconLink: [python, googlegemini, streamlit],
 };
-export const prj11 = {
-  iconLink: [
-    nextjs,
-    typescript,
-    javascript,
-    tailwindcss,
-    postgresql,
-    prisma,
-    vercel,
-  ],
-};
-export const prj2 = {
+
+export const blogIcons = {
   iconLink: [
     reactjs,
     typescript,
@@ -57,7 +58,7 @@ export const prj2 = {
     vercel,
   ],
 };
-export const prj3 = {
+export const todoIcons = {
   iconLink: [
     typescript,
     javascript,
@@ -68,5 +69,5 @@ export const prj3 = {
     prisma,
   ],
 };
-export const prj4 = { iconLink: [flutter, firebase, dart, android] };
-export const prj5 = { iconLink: [flutter, firebase, dart, android] };
+export const gradeplusIcons = { iconLink: [flutter, firebase, dart, android] };
+export const parkeaseIcons = { iconLink: [flutter, firebase, dart, android] };
