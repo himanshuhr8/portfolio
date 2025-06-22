@@ -29,6 +29,8 @@ const shadcn = "/shadcnui.svg";
 
 export const drive_link =
   "https://drive.google.com/file/d/1DE3kOBYf2fuHW5sthCJD89Ld6bwV-Gfd/view?usp=sharing";
+export const drive_link2 =
+  "https://drive.google.com/file/d/1xCLkAg2XpA7wNwXAvSa3MPNtBP2m5jmI/view?usp=sharing";
 
 export const musicRoomIcons = {
   iconLink: [nextjs, typescript, tailwindcss, postgresql, prisma, vercel],

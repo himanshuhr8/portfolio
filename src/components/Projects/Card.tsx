@@ -21,20 +21,25 @@ export function Card({
   icons,
 }: CardProps) {
   return (
-    <CardContainer className="max-w-full overflow-x-auto">
+    <CardContainer
+      containerClassName="perspective-[1000px] py-10"
+      className="relative transition-transform duration-300 ease-out"
+    >
       <CardBody
-        className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
-          dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full max-w-[90%] sm:max-w-[30rem] 
-          md:max-w-[22rem] lg:max-w-[30rem] h-auto rounded-xl p-4 sm:p-6 border"
+        className="bg-gray-50 relative group/card transform-style-3d
+        dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
+        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+        w-full max-w-[90%] sm:max-w-[30rem] md:max-w-[22rem] lg:max-w-[30rem] 
+        h-auto rounded-xl p-4 sm:p-6 border"
       >
         <CardItem
-          translateZ="50"
+          translateZ={50}
           className="text-base sm:text-lg md:text-xl font-bold text-neutral-600 dark:text-white"
         >
           {title}
         </CardItem>
 
-        <CardItem translateZ="100" className="w-full mt-4">
+        <CardItem translateZ={100} className="w-full mt-4">
           <img
             src={imgLink}
             alt="thumbnail"
@@ -44,7 +49,7 @@ export function Card({
 
         <CardItem
           as="p"
-          translateZ="60"
+          translateZ={60}
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
           {description}

@@ -8,7 +8,7 @@ const About = (): JSX.Element => {
     <div id="about" className="container mx-auto px-6 py-12 mt-7">
       {/* Heading Section */}
       <div className="w-full text-center mb-8">
-        <Heading title="Know Who I'm" />
+        <Heading title="About Me" />
       </div>
 
       {/* First Row: AboutCard and Circle */}

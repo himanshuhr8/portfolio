@@ -12,6 +12,8 @@ import Navbar from "@/components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import CodingHome from "./components/Profiles/ProfileHome";
+
 const App: React.FC = () => {
   useEffect(() => {
     // Set the dark class on the html element to enforce dark mode globally
@@ -24,6 +26,7 @@ const App: React.FC = () => {
       <HeroHighlight>
         <ScrollProgress className="top-[0px]" />
         <Navbar />
+
         <div
           className=" container flex flex-col justify-center items-center w-full h-full overflow-x-hidden"
           style={{
@@ -35,6 +38,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/profile" element={<CodingHome />} />
           </Routes>
 
           <Footer />

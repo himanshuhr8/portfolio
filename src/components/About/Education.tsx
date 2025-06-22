@@ -16,7 +16,7 @@ export default function TimelineDemo() {
               Technology, Allahabad (IIIT A)
             </h3>
             <p className="mt-2 text-left text-lg md:text-xl font-semibold text-white">
-              <strong>CGPA:</strong> 7.68 (till 4th semester)
+              <strong>CGPA:</strong> 7.81 (till 6th semester)
             </p>
 
             <h4 className="mt-4 text-left text-xl font-semibold text-white">

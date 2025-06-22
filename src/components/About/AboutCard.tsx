@@ -10,7 +10,7 @@ const AboutCard = (): JSX.Element => {
           <p className="text-justify text-wrap ">
             Hi, I’m{" "}
             <span className="text-purple-500 font-semibold">Himanshu Raj</span>,
-            a pre-final year B.Tech. student in{" "}
+            a final year B.Tech. student in{" "}
             <span className="text-purple-500 font-semibold">
               Information Technology
             </span>{" "}
